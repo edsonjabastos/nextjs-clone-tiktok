@@ -19,7 +19,7 @@ export const SidebarContainer = styled.div`
 export const ContentContainer = styled.div`
   flex: 1;
   margin: 0 auto;
-  paddign: 50px 20px;
+  padding: 50px 20px;
   display: flex;
   max-width: 1194px;
 `;

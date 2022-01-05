@@ -18,7 +18,7 @@ function Header() {
           <Logo src="/images/logo.svg"></Logo>
         </LogoContainer>
         <OptionsContainer>
-          <Icon></Icon>
+          <Icon src="/images/uploadIcon.svg"></Icon>
           <Avatar>
             <img src="https://avatars.githubusercontent.com/u/79489992?v=4" />
           </Avatar>
