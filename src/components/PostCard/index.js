@@ -1,4 +1,24 @@
-import Header from "../Header";
+import {
+  Container,
+  Header,
+  PersonContainer,
+  Avatar,
+  Info,
+  Author,
+  Descrption,
+  Tag,
+  Content,
+  Song,
+  VideoContainer,
+  Video,
+  ActionContainer,
+  PlayerIcon,
+  Actions,
+  ButtonContainer,
+  Action,
+} from "./styles";
+
+import Button from "../Button";
 
 function PostCard({ post }) {
   return (
@@ -17,6 +37,9 @@ function PostCard({ post }) {
             </Descrption>
           </Info>
         </PersonContainer>
+        <ButtonContainer>
+          <Button></Button>
+        </ButtonContainer>
       </Header>
       <Content>
         <Song>
@@ -36,6 +59,22 @@ function PostCard({ post }) {
           </ActionContainer>
         </VideoContainer>
       </Content>
+      <Actions>
+        <Action>
+          <img></img>
+          <a></a>
+        </Action>
+        <Action>
+          <img></img>
+          <a></a>
+        </Action>
+        <Action>
+          <img></img>
+          <a></a>
+        </Action>
+      </Actions>
     </Container>
   );
 }
+
+export default PostCard;
