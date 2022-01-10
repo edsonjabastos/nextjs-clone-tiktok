@@ -6,7 +6,7 @@ function Index({ posts = [] }) {
   return (
     <Layout>
       <Feed posts={posts}></Feed>
-      <Suggestions></Suggestions>
+      {/* <Suggestions></Suggestions> */}
     </Layout>
   );
 }
